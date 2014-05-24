@@ -67,4 +67,5 @@ class IndexController extends AppController
     		}
     	}
     }
+    /*Prueba de edición de codigo*/
 }
