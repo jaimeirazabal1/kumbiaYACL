@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta http-equiv='Content-type' content='text/html; charset=<?php echo APP_CHARSET ?>' />
+  <title>App Framework</title>
+  <?php Tag::css('css/bootstrap') ?>
+  <?php echo Html::includeCss() ?>
+  <?php echo Tag::js('jquery/jquery.min') ?>
+  <?php echo Tag::js('jquery/jquery.kumbiaphp') ?>
+  <?php echo Tag::js('js/bootstrap') ?>
+</head>
+<body>
+  <?php View::content(); ?>
+</body>
+</html>

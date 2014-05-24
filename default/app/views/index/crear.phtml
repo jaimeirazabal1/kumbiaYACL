@@ -1,0 +1,15 @@
+<div class="container">
+	<?php echo View::content() ?>
+	<h2>Crear Usuario</h2>
+	<?php echo Form::open() ?>
+	<div class="form-group">
+		<label for="">Nombre de Usuario</label>
+		<?php echo Form::text('usuario.nombreusuario','class="form-control"') ?>
+		<label for="">Password</label>
+		<?php echo Form::pass('usuario.password','class="form-control"') ?>
+		<hr>
+		<input type="submit" value="Registrar" class='btn btn-primary'>
+	</div>
+	<?php echo Html::link('index/','Login') ?>
+	<?php echo Html::link('index/lista','Lista de Usuario') ?>
+</div>
